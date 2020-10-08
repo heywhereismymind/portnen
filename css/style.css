@@ -526,19 +526,20 @@ footer a {
 
     .mobile-nav {
         z-index: 9;
-        display: block;
+        display: none;
         position: absolute;
-        right: -300px;
-        top: 30px;
-        height: 100%;
-        width: 300px;
-        padding: 40px;
+        right: -200px;
+        top: 60px;
+        width: 200px;
+        height: 15%;
+        padding: 9px 0 0 7px;
         background-color: rgba(86, 85, 88, 0.151);
         transition: transform 0.6s ease-in;
     }
 
     .mobile-nav--active {
         transform: translateX(-100%);
+        display: block;
     }
 
     .mobile-nav__title {
@@ -603,4 +604,40 @@ footer a {
     .about__magazine {
         margin: 0 auto;
     }
-}
+    header {
+        padding: 0px 11px;
+    }
+    
+    .mobile-nav {
+        z-index: 9;
+        display: none;
+        position: absolute;
+        right: -200px;
+        top: 150px;
+        width: 200px;
+        height: 13%;
+        padding: 0px 0 0 0px;
+        background-color: rgba(86, 85, 88, 0.151);
+        transition: transform 0.6s ease-in;
+    }
+    /*Mobile nav---------------------*/
+    .mobile-nav--active {
+        transform: translateX(-100%);
+        display: block;
+    }
+    
+    .mobile-nav__title {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        padding: 10px;
+    }
+    .mobile-nav__title:hover {
+        background: grey;
+    }
+    .second__line .mobile-nav__title {
+        display: block;
+    }
+}   
+
