@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PostNoBillsJaffna';
+    src: url('../fonts/PostNoBillsJaffna-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Regular.woff') format('woff');
+}
